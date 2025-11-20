@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/quartus/HDL_TP2_EX1/simulation/qsim
+vcompteur
+Z1 !s110 1758191285
+!i10b 1
+!s100 FzX>8?l6d1TNc0[UGnK960
+I9A?gdZ0VL;z8SjWAe<:PN1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1758191283
+Z4 8compteur.vo
+Z5 Fcompteur.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1758191285.000000
+Z8 !s107 compteur.vo|
+Z9 !s90 -work|work|compteur.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcompteur_vlg_vec_tst
+R1
+!i10b 1
+!s100 EjW7emSB_@>VkR5GTz9j[1
+IHNPgMdk3_9IWGJ_?I]k>i1
+R2
+R0
+w1758191281
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+R1
+!i10b 1
+!s100 lYAQZ=]320@W;CeLDP<@k2
+ISU^NhNe;4JK8WffYeXYW00
+R2
+R0
+R3
+R4
+R5
+L0 606
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

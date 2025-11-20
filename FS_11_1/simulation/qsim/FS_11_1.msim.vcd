@@ -1,0 +1,194 @@
+$comment
+	File created using the following command:
+		vcd file FS_11_1.msim.vcd -direction
+$end
+$date
+	Wed Mar 26 15:23:01 2025
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module AffichageEtats_vlg_vec_tst $end
+$var reg 1 ! EtatCoffreIN $end
+$var reg 1 " EtatPresenceIN $end
+$var reg 1 # EtatSerrureIN $end
+$var wire 1 $ EtatCoffreOUT $end
+$var wire 1 % EtatPresenceOUT $end
+$var wire 1 & EtatSerrureOUT $end
+
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - EtatSerrureOUT~output_o $end
+$var wire 1 . EtatCoffreOUT~output_o $end
+$var wire 1 / EtatPresenceOUT~output_o $end
+$var wire 1 0 EtatSerrureIN~input_o $end
+$var wire 1 1 inst1~o $end
+$var wire 1 2 inst2~o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+x$
+x%
+x&
+0'
+1(
+x)
+1*
+1+
+1,
+x-
+x.
+x/
+00
+01
+02
+$end
+#5806
+0/
+0%
+#6094
+1-
+1&
+#6346
+0.
+0$
+#2560000
+1"
+#2560650
+12
+#2566243
+1/
+1%
+#7680000
+0"
+#7680756
+02
+#7686562
+0/
+0%
+#8320000
+1!
+#8320689
+11
+#8326856
+1.
+1$
+#12160000
+1#
+#12160689
+10
+#12166622
+0-
+0&
+#15360000
+0!
+#15360795
+01
+#15367141
+0.
+0$
+#23680000
+0#
+#23680795
+00
+#23686889
+1-
+1&
+#26240000
+1"
+#26240650
+12
+#26246243
+1/
+1%
+#33280000
+1!
+#33280689
+11
+#33286856
+1.
+1$
+#36480000
+1#
+#36480689
+10
+#36486622
+0-
+0&
+#40320000
+0"
+0!
+#40320756
+02
+#40320795
+01
+#40326562
+0/
+0%
+#40327141
+0.
+0$
+#52480000
+0#
+#52480795
+00
+#52486889
+1-
+1&
+#60800000
+1"
+#60800650
+12
+#60806243
+1/
+1%
+#67200000
+1!
+#67200689
+11
+#67206856
+1.
+1$
+#79360000
+1#
+#79360689
+10
+#79366622
+0-
+0&
+#83200000
+0"
+#83200756
+02
+#83206562
+0/
+0%
+#88960000
+0!
+#88960795
+01
+#88967141
+0.
+0$
+#94720000
+0#
+#94720795
+00
+#94726889
+1-
+1&
+#100000000

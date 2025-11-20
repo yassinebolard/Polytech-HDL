@@ -1,0 +1,77 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "CodeTF",
+					"strict" : false
+				},
+				{
+					"name" : "Code[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Code[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Code[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Code[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Code[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Code[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Code[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Code[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Code[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Code[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Code[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Code[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Code[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Code[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Code[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Code[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

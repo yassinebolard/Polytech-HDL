@@ -1,0 +1,365 @@
+$comment
+	File created using the following command:
+		vcd file HDL_TP3_EX1_cmdmotpap.msim.vcd -direction
+$end
+$date
+	Tue Sep 30 18:14:01 2025
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module cmdmotpap_vlg_vec_tst $end
+$var reg 1 ! FullnHalf $end
+$var reg 1 " Hold $end
+$var reg 1 # MotDir $end
+$var reg 1 $ OnOff $end
+$var reg 1 % nStep $end
+$var wire 1 & Phase [0] $end
+$var wire 1 ' Phase [1] $end
+$var wire 1 ( Phase [2] $end
+$var wire 1 ) Phase [3] $end
+
+$scope module i1 $end
+$var wire 1 * gnd $end
+$var wire 1 + vcc $end
+$var wire 1 , unknown $end
+$var tri1 1 - devclrn $end
+$var tri1 1 . devpor $end
+$var tri1 1 / devoe $end
+$var wire 1 0 Phase[3]~output_o $end
+$var wire 1 1 Phase[2]~output_o $end
+$var wire 1 2 Phase[1]~output_o $end
+$var wire 1 3 Phase[0]~output_o $end
+$var wire 1 4 nStep~input_o $end
+$var wire 1 5 nStep~inputclkctrl_outclk $end
+$var wire 1 6 OnOff~input_o $end
+$var wire 1 7 MotDir~input_o $end
+$var wire 1 8 Hold~input_o $end
+$var wire 1 9 FullnHalf~input_o $end
+$var wire 1 : Selector8~0_combout $end
+$var wire 1 ; always1~2_combout $end
+$var wire 1 < always1~1_combout $end
+$var wire 1 = Selector6~0_combout $end
+$var wire 1 > Selector8~1_combout $end
+$var wire 1 ? Selector9~0_combout $end
+$var wire 1 @ Selector9~1_combout $end
+$var wire 1 A EtatPresent.PAS24~q $end
+$var wire 1 B Selector7~0_combout $end
+$var wire 1 C Selector7~1_combout $end
+$var wire 1 D Selector7~2_combout $end
+$var wire 1 E EtatPresent.PAS4~q $end
+$var wire 1 F Selector5~2_combout $end
+$var wire 1 G always1~0_combout $end
+$var wire 1 H Selector10~0_combout $end
+$var wire 1 I Selector10~1_combout $end
+$var wire 1 J EtatPresent.PAS32~q $end
+$var wire 1 K Selector5~0_combout $end
+$var wire 1 L Selector5~1_combout $end
+$var wire 1 M Selector5~3_combout $end
+$var wire 1 N EtatPresent.PAS2~q $end
+$var wire 1 O Selector16~0_combout $end
+$var wire 1 P Selector16~1_combout $end
+$var wire 1 Q Selector16~2_combout $end
+$var wire 1 R EtatPresent.PAS13~q $end
+$var wire 1 S Selector6~1_combout $end
+$var wire 1 T Selector6~2_combout $end
+$var wire 1 U Selector6~3_combout $end
+$var wire 1 V EtatPresent.PAS3~q $end
+$var wire 1 W Selector4~0_combout $end
+$var wire 1 X Selector3~0_combout $end
+$var wire 1 Y EtatPresent.OFF~q $end
+$var wire 1 Z Selector4~1_combout $end
+$var wire 1 [ Selector4~2_combout $end
+$var wire 1 \ Selector4~3_combout $end
+$var wire 1 ] EtatPresent.INIT_STEP~q $end
+$var wire 1 ^ Selector8~2_combout $end
+$var wire 1 _ Selector8~3_combout $end
+$var wire 1 ` EtatPresent.PAS41~q $end
+$var wire 1 a WideOr7~0_combout $end
+$var wire 1 b WideOr5~0_combout $end
+$var wire 1 c WideOr3~0_combout $end
+$var wire 1 d WideOr1~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+0#
+1$
+1%
+z)
+z(
+z'
+z&
+0*
+1+
+x,
+1-
+1.
+1/
+z0
+z1
+z2
+z3
+14
+15
+16
+07
+08
+19
+0:
+1;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+1G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+1X
+0Y
+0Z
+0[
+1\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+$end
+#50000
+0%
+04
+05
+#100000
+1%
+14
+15
+1]
+1Y
+00
+01
+02
+03
+1[
+1P
+1=
+0&
+0'
+0(
+0)
+1d
+13
+1S
+1&
+0\
+1T
+1U
+#150000
+0%
+04
+05
+#200000
+1%
+14
+15
+0]
+1V
+0P
+0=
+1F
+0d
+1b
+11
+03
+0S
+0&
+1(
+1M
+0T
+0U
+#250000
+0%
+04
+05
+#300000
+1%
+14
+15
+0V
+1N
+0F
+1B
+0b
+1c
+12
+01
+1C
+0(
+1'
+0M
+1D
+#350000
+0%
+04
+05
+#400000
+1%
+14
+15
+0N
+1E
+0B
+1W
+0c
+1a
+10
+02
+0C
+0'
+1)
+1\
+0D
+#450000
+0%
+04
+05
+#480000
+0!
+09
+1>
+0;
+1^
+0W
+1F
+1_
+0\
+#500000
+1%
+14
+15
+1`
+0E
+1Z
+0^
+0F
+1d
+13
+0[
+1&
+0_
+1\
+#550000
+0%
+04
+05
+#600000
+1%
+14
+15
+0`
+1]
+0Z
+1P
+0a
+00
+1[
+0)
+1Q
+0\
+#650000
+0%
+04
+05
+#700000
+1%
+14
+15
+0]
+1R
+0P
+1S
+1b
+11
+1T
+1(
+0Q
+1U
+#750000
+0%
+04
+05
+#800000
+1%
+14
+15
+1V
+0R
+1H
+1F
+0S
+0d
+03
+0T
+0&
+1I
+0U
+#850000
+0%
+04
+05
+#900000
+1%
+14
+15
+0V
+1J
+0H
+0F
+1K
+1c
+12
+1L
+1'
+0I
+1M
+#950000
+0%
+04
+05
+#960000
+1!
+19
+0>
+1;
+#1000000

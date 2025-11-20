@@ -1,0 +1,10 @@
+module selection_droite(BP3, deActuel);
+	input BP1;
+	input[2:0] deActuel;
+	reg[0:2] deActuel;
+	
+	always @(posedge BP3)
+	begin
+		deActuel = (deActuel + 1) % 8;
+	end
+endmodule
