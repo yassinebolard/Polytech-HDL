@@ -1,5 +1,5 @@
 Fitter report for Simulateur_De
-Thu Nov 20 12:30:10 2025
+Thu Nov 27 11:00:30 2025
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -59,7 +59,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Thu Nov 20 12:30:10 2025       ;
+; Fitter Status                      ; Successful - Thu Nov 27 11:00:30 2025       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; Simulateur_De                               ;
 ; Top-level Entity Name              ; simulateur_de                               ;
@@ -3037,8 +3037,8 @@ Warning (169177): 2 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2
     Info (169178): Pin KEY2 uses I/O standard 2.5 V at AH8 File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 7
 Info (144001): Generated suppressed messages file C:/quartus/HDL_TP4_SUJET1_de/output_files/Simulateur_De.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 492 warnings
-    Info: Peak virtual memory: 6278 megabytes
-    Info: Processing ended: Thu Nov 20 12:30:10 2025
+    Info: Peak virtual memory: 6274 megabytes
+    Info: Processing ended: Thu Nov 27 11:00:30 2025
     Info: Elapsed time: 00:00:07
     Info: Total CPU time (on all processors): 00:00:15
 

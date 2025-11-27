@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Simulateur_De
-Thu Nov 20 12:30:02 2025
+Thu Nov 27 11:00:22 2025
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -56,7 +56,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov 20 12:30:02 2025       ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 27 11:00:22 2025       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; Simulateur_De                               ;
 ; Top-level Entity Name              ; simulateur_de                               ;
@@ -349,9 +349,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------+-------+----------+-------------------------------------------------------+
 ; Port    ; Type  ; Severity ; Details                                               ;
 +---------+-------+----------+-------------------------------------------------------+
-; E[2..1] ; Input ; Info     ; Stuck at VCC                                          ;
+; E[1..0] ; Input ; Info     ; Stuck at GND                                          ;
 ; E[3]    ; Input ; Info     ; Stuck at GND                                          ;
-; E[0]    ; Input ; Info     ; Stuck at GND                                          ;
+; E[2]    ; Input ; Info     ; Stuck at VCC                                          ;
 +---------+-------+----------+-------------------------------------------------------+
 
 
@@ -414,7 +414,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Thu Nov 20 12:29:54 2025
+    Info: Processing started: Thu Nov 27 11:00:14 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off HDL_TP4_SUJET1 -c Simulateur_De
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -452,16 +452,37 @@ Warning (10230): Verilog HDL assignment warning at throw_dice.v(35): truncated v
 Warning (10230): Verilog HDL assignment warning at throw_dice.v(36): truncated value with size 32 to match size of target (8) File: C:/quartus/HDL_TP4_SUJET1_de/throw_dice.v Line: 36
 Info (12128): Elaborating entity "lfsr8" for hierarchy "throw_dice:pulled_value|lfsr8:rnd_int" File: C:/quartus/HDL_TP4_SUJET1_de/throw_dice.v Line: 23
 Info (12128): Elaborating entity "afficheur_de" for hierarchy "afficheur_de:affichage_selection" File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 72
+Warning (10270): Verilog HDL Case Statement warning at afficheur_de.v(51): incomplete case statement has no default case item File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 51
+Warning (10240): Verilog HDL Always Construct warning at afficheur_de.v(49): inferring latch(es) for variable "digit0_val", which holds its previous value in one or more paths through the always construct File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Warning (10240): Verilog HDL Always Construct warning at afficheur_de.v(49): inferring latch(es) for variable "digit1_val", which holds its previous value in one or more paths through the always construct File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Warning (10240): Verilog HDL Always Construct warning at afficheur_de.v(49): inferring latch(es) for variable "digit2_val", which holds its previous value in one or more paths through the always construct File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Warning (10240): Verilog HDL Always Construct warning at afficheur_de.v(49): inferring latch(es) for variable "digit3_val", which holds its previous value in one or more paths through the always construct File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit3_val[0]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit3_val[1]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit3_val[2]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit3_val[3]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit2_val[0]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit2_val[1]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit2_val[2]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit2_val[3]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit1_val[0]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit1_val[1]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit1_val[2]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit1_val[3]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit0_val[0]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit0_val[1]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit0_val[2]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
+Info (10041): Inferred latch for "digit0_val[3]" at afficheur_de.v(49) File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 49
 Info (12128): Elaborating entity "afficheur7s" for hierarchy "afficheur_de:affichage_selection|afficheur7s:hex0_inst" File: C:/quartus/HDL_TP4_SUJET1_de/afficheur_de.v Line: 27
 Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "HEX0[6]" is stuck at GND File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 9
     Warning (13410): Pin "HEX0[5]" is stuck at GND File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 9
-    Warning (13410): Pin "HEX0[4]" is stuck at GND File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 9
-    Warning (13410): Pin "HEX0[3]" is stuck at GND File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 9
+    Warning (13410): Pin "HEX0[4]" is stuck at VCC File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 9
+    Warning (13410): Pin "HEX0[3]" is stuck at VCC File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 9
     Warning (13410): Pin "HEX0[2]" is stuck at GND File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 9
-    Warning (13410): Pin "HEX0[1]" is stuck at VCC File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 9
-    Warning (13410): Pin "HEX0[0]" is stuck at GND File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 9
+    Warning (13410): Pin "HEX0[1]" is stuck at GND File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 9
+    Warning (13410): Pin "HEX0[0]" is stuck at VCC File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 9
     Warning (13410): Pin "HEX1[6]" is stuck at GND File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 10
     Warning (13410): Pin "HEX1[5]" is stuck at VCC File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 10
     Warning (13410): Pin "HEX1[4]" is stuck at GND File: C:/quartus/HDL_TP4_SUJET1_de/simulateur_de.v Line: 10
@@ -507,9 +528,9 @@ Warning (21074): Design contains 4 input pin(s) that do not drive logic
 Info (21057): Implemented 46 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 4 input pins
     Info (21059): Implemented 42 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 65 warnings
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 70 warnings
     Info: Peak virtual memory: 4744 megabytes
-    Info: Processing ended: Thu Nov 20 12:30:02 2025
+    Info: Processing ended: Thu Nov 27 11:00:22 2025
     Info: Elapsed time: 00:00:08
     Info: Total CPU time (on all processors): 00:00:16
 

@@ -43,14 +43,26 @@ module afficheur_de(de_value, HEX0, HEX1, HEX2, HEX3);
         .E(digit3_val), 
         .S(HEX3)
     );
+	 
+	 
 
    always @(de_value)
    begin
-        // Valeurs par défaut pour reset
-        digit0_val = 6;
-        digit1_val = 13; 
-        digit2_val = 15;
-		  digit3_val = 15;
+		case(de_value)
+			D4 : begin
+			  digit0_val = 4;
+			  digit1_val = 13; 
+			  digit2_val = 15;
+			  digit3_val = 15;
+			end
+			D8 : begin
+			  digit0_val = 4;
+			  digit1_val = 13; 
+			  digit2_val = 15;
+			  digit3_val = 15;
+			end
+		endcase
+        
     end
 
 endmodule

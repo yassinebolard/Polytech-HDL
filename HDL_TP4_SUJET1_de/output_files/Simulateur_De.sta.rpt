@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for Simulateur_De
-Thu Nov 20 12:30:17 2025
+Thu Nov 27 11:00:38 2025
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -91,7 +91,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-12        ;   0.3%      ;
+;     Processors 2-12        ;   0.2%      ;
 +----------------------------+-------------+
 
 
@@ -498,7 +498,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime TimeQuest Timing Analyzer
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Thu Nov 20 12:30:15 2025
+    Info: Processing started: Thu Nov 27 11:00:35 2025
 Info: Command: quartus_sta HDL_TP4_SUJET1 -c Simulateur_De
 Info: qsta_default_script.tcl version: #3
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -546,9 +546,9 @@ Info (332140): No Minimum Pulse Width paths to report
 Info (332101): Design is fully constrained for setup requirements
 Info (332101): Design is fully constrained for hold requirements
 Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4908 megabytes
-    Info: Processing ended: Thu Nov 20 12:30:17 2025
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 4924 megabytes
+    Info: Processing ended: Thu Nov 27 11:00:38 2025
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:01
 
 
