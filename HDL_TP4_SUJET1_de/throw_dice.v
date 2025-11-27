@@ -15,7 +15,7 @@ module throw_dice(Clk, rst_button, dice, new_value);
 	localparam D30  = 6;
 	localparam D100 = 7;
 	
-	// Instance du générateur pseudo-aléatoire (LFSR 8 bits)
+	// Instance du générateur pseudo-aléatoire (LFSR 8 bits) -
 	lfsr8 rnd_int(
 		.Clk(Clk),
 		.rst(rst_button),
