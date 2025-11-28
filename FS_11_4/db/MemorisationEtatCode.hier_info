@@ -1,6 +1,0 @@
-|MemorisationEtatCode
-CodeTF_mem <= inst.DB_MAX_OUTPUT_PORT_TYPE
-nLatchCode => inst1.IN0
-CodeTF => inst.DATAIN
-
-

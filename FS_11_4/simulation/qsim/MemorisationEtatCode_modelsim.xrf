@@ -1,8 +1,0 @@
-vendor_name = ModelSim
-source_file = 1, C:/quartus/FS_11_4/MemorisationEtatCode.bdf
-source_file = 1, C:/quartus/FS_11_4/Simulation.vwf
-source_file = 1, C:/quartus/FS_11_4/db/MemorisationEtatCode.cbx.xml
-design_name = MemorisationEtatCode
-instance = comp, \CodeTF_mem~output , CodeTF_mem~output, MemorisationEtatCode, 1
-instance = comp, \nLatchCode~input , nLatchCode~input, MemorisationEtatCode, 1
-instance = comp, \CodeTF~input , CodeTF~input, MemorisationEtatCode, 1

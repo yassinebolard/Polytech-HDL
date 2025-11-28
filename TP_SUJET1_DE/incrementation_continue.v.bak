@@ -1,0 +1,8 @@
+module incrementation_continue(dice, clk, random);
+	input[2:0] dice;
+	input Clk;
+	
+	output[0:6] random;
+	wire[0:6] random;
+	
+	reg[0:6] 

@@ -1,9 +1,0 @@
-|AffichageEtats
-EtatSerrureOUT <= inst.DB_MAX_OUTPUT_PORT_TYPE
-EtatSerrureIN => inst.IN0
-EtatCoffreOUT <= inst1.OUT
-EtatCoffreIN => inst1.DATA
-EtatPresenceOUT <= inst2.OUT
-EtatPresenceIN => inst2.DATA
-
-

@@ -1,0 +1,8 @@
+module lancerde(dice, Throw, Clk, value);
+	input[2:0] dice;
+	input Throw;
+	input Clk;
+	
+	output[0:6] value;
+	
+endmodule

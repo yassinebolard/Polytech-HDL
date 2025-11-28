@@ -1,9 +1,0 @@
-|Add1b
-A => S.IN0
-A => Co.IN0
-B => S.IN1
-B => Co.IN1
-S <= S.DB_MAX_OUTPUT_PORT_TYPE
-Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
-
-
