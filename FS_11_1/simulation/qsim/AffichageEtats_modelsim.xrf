@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/quartus/FS_11_1/AffichageEtats.bdf
+source_file = 1, C:/quartus/FS_11_1/Test_FS11.vwf
+source_file = 1, C:/quartus/FS_11_1/db/AffichageEtats.cbx.xml
+design_name = AffichageEtats
+instance = comp, \EtatSerrureOUT~output , EtatSerrureOUT~output, AffichageEtats, 1
+instance = comp, \EtatCoffreOUT~output , EtatCoffreOUT~output, AffichageEtats, 1
+instance = comp, \EtatPresenceOUT~output , EtatPresenceOUT~output, AffichageEtats, 1
+instance = comp, \EtatSerrureIN~input , EtatSerrureIN~input, AffichageEtats, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

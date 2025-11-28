@@ -1,0 +1,33 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "NbTries[3]",
+					"strict" : false
+				},
+				{
+					"name" : "NbTries[2]",
+					"strict" : false
+				},
+				{
+					"name" : "NbTries[1]",
+					"strict" : false
+				},
+				{
+					"name" : "NbTries[0]",
+					"strict" : false
+				},
+				{
+					"name" : "IncTries",
+					"strict" : false
+				},
+				{
+					"name" : "RazTries",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

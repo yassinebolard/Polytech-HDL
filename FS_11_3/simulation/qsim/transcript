@@ -1,0 +1,31 @@
+# do FS11_3.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:58:10 on Mar 26,2025
+# vlog -work work Transcodage.vo 
+# -- Compiling module Transcodage
+# 
+# Top level modules:
+# 	Transcodage
+# End time: 16:58:10 on Mar 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:58:10 on Mar 26,2025
+# vlog -work work Simulation.vwf.vt 
+# -- Compiling module Transcodage_vlg_vec_tst
+# 
+# Top level modules:
+# 	Transcodage_vlg_vec_tst
+# End time: 16:58:10 on Mar 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.Transcodage_vlg_vec_tst 
+# Start time: 16:58:10 on Mar 26,2025
+# Loading work.Transcodage_vlg_vec_tst
+# Loading work.Transcodage
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# after#23
+# ** Note: $finish    : Simulation.vwf.vt(44)
+#    Time: 100 us  Iteration: 0  Instance: /Transcodage_vlg_vec_tst
+# End time: 16:58:11 on Mar 26,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Sep 22 15:11:32 2025
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : diviseur_freq
+Top-level Entity Name : led_blink
+Family : Cyclone IV E
+Total logic elements : 69
+    Total combinational functions : 69
+    Dedicated logic registers : 50
+Total registers : 50
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

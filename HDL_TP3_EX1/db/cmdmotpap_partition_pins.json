@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Phase[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Phase[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Phase[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Phase[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OnOff",
+					"strict" : false
+				},
+				{
+					"name" : "FullnHalf",
+					"strict" : false
+				},
+				{
+					"name" : "MotDir",
+					"strict" : false
+				},
+				{
+					"name" : "Hold",
+					"strict" : false
+				},
+				{
+					"name" : "nStep",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

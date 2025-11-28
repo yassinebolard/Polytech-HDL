@@ -1,0 +1,11 @@
+module change_value_mod8(increment, selected_dice, new_dice);
+	input increment;
+	input[2:0] selected_dice;
+	output[0:2] new_dice;
+	reg[0:2] new_dice;
+	
+	// La condition increment dans la parenthèse permet de retourner 1 ou -1 pour l'addition
+	assign new_dice = (selected_dice + (increment ? 1 : -1)) % 8;
+	
+endmodule
+	

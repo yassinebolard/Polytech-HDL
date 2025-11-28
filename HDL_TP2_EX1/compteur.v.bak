@@ -1,0 +1,11 @@
+module compteur(Clk, Q);
+	input Clk;
+	
+	output[3:0] Q;
+	reg[3:0] Q;
+	
+	always @(posedge(Clk));
+	begin
+		Q<=Q+1;
+	end
+endmodule

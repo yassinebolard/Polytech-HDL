@@ -1,0 +1,28 @@
+|AP1_EX3_afficheur7s
+HEX0[6] <= afficheur7s:inst.S[6]
+HEX0[5] <= afficheur7s:inst.S[5]
+HEX0[4] <= afficheur7s:inst.S[4]
+HEX0[3] <= afficheur7s:inst.S[3]
+HEX0[2] <= afficheur7s:inst.S[2]
+HEX0[1] <= afficheur7s:inst.S[1]
+HEX0[0] <= afficheur7s:inst.S[0]
+sw[0] => afficheur7s:inst.E[0]
+sw[1] => afficheur7s:inst.E[1]
+sw[2] => afficheur7s:inst.E[2]
+sw[3] => afficheur7s:inst.E[3]
+
+
+|AP1_EX3_afficheur7s|afficheur7s:inst
+E[0] => Decoder0.IN3
+E[1] => Decoder0.IN2
+E[2] => Decoder0.IN1
+E[3] => Decoder0.IN0
+S[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+S[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

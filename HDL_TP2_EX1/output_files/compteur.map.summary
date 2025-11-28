@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Sep 18 12:28:56 2025
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : compteur
+Top-level Entity Name : compteur
+Family : Cyclone IV E
+Total logic elements : 21
+    Total combinational functions : 21
+    Dedicated logic registers : 3
+Total registers : 3
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

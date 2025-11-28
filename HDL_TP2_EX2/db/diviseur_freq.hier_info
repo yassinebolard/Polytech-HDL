@@ -1,0 +1,65 @@
+|led_blink
+LEDR0 <= diviseur_freq:inst4.clkOut
+CLOCK_50 => diviseur_freq:inst4.clkIn
+CLOCK_50 => diviseur_freq:inst.clkIn
+LEDR1 <= diviseur_freq:inst.clkOut
+
+
+|led_blink|diviseur_freq:inst4
+clkIn => clkOut~reg0.CLK
+clkIn => Nb[0].CLK
+clkIn => Nb[1].CLK
+clkIn => Nb[2].CLK
+clkIn => Nb[3].CLK
+clkIn => Nb[4].CLK
+clkIn => Nb[5].CLK
+clkIn => Nb[6].CLK
+clkIn => Nb[7].CLK
+clkIn => Nb[8].CLK
+clkIn => Nb[9].CLK
+clkIn => Nb[10].CLK
+clkIn => Nb[11].CLK
+clkIn => Nb[12].CLK
+clkIn => Nb[13].CLK
+clkIn => Nb[14].CLK
+clkIn => Nb[15].CLK
+clkIn => Nb[16].CLK
+clkIn => Nb[17].CLK
+clkIn => Nb[18].CLK
+clkIn => Nb[19].CLK
+clkIn => Nb[20].CLK
+clkIn => Nb[21].CLK
+clkIn => Nb[22].CLK
+clkIn => Nb[23].CLK
+clkOut <= clkOut~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|led_blink|diviseur_freq:inst
+clkIn => clkOut~reg0.CLK
+clkIn => Nb[0].CLK
+clkIn => Nb[1].CLK
+clkIn => Nb[2].CLK
+clkIn => Nb[3].CLK
+clkIn => Nb[4].CLK
+clkIn => Nb[5].CLK
+clkIn => Nb[6].CLK
+clkIn => Nb[7].CLK
+clkIn => Nb[8].CLK
+clkIn => Nb[9].CLK
+clkIn => Nb[10].CLK
+clkIn => Nb[11].CLK
+clkIn => Nb[12].CLK
+clkIn => Nb[13].CLK
+clkIn => Nb[14].CLK
+clkIn => Nb[15].CLK
+clkIn => Nb[16].CLK
+clkIn => Nb[17].CLK
+clkIn => Nb[18].CLK
+clkIn => Nb[19].CLK
+clkIn => Nb[20].CLK
+clkIn => Nb[21].CLK
+clkIn => Nb[22].CLK
+clkIn => Nb[23].CLK
+clkOut <= clkOut~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

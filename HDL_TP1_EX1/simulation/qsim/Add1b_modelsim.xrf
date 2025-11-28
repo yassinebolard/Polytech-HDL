@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/quartus/HDL_TP1_EX1/Add1b.v
+source_file = 1, C:/quartus/HDL_TP1_EX1/Add1bwf.vwf
+source_file = 1, C:/quartus/HDL_TP1_EX1/Waveform.vwf
+source_file = 1, C:/quartus/HDL_TP1_EX1/db/Add1b.cbx.xml
+design_name = Add1b
+instance = comp, \S~output , S~output, Add1b, 1
+instance = comp, \Co~output , Co~output, Add1b, 1
+instance = comp, \A~input , A~input, Add1b, 1
+instance = comp, \B~input , B~input, Add1b, 1
+instance = comp, \S~0 , S~0, Add1b, 1
+instance = comp, \Co~0 , Co~0, Add1b, 1

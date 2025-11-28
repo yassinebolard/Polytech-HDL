@@ -1,0 +1,117 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/quartus/HDL_TP1_EX3/simulation/qsim
+vafficheur7s
+Z1 !s110 1758006287
+!i10b 1
+!s100 A>0GJD3U1ifRn9WA[_0LA2
+IZ`bLHY1`9`LdHT_@Q96jj0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1758006285
+Z3 8afficheur7s.vo
+Z4 Fafficheur7s.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1758006287.000000
+Z8 !s107 afficheur7s.vo|
+Z9 !s90 -work|work|afficheur7s.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vafficheur7s_vlg_vec_tst
+R1
+!i10b 1
+!s100 VGzSbLWm4M]XGgPaP7YmZ2
+I3cR`O48Y:2PDBPdFH]oAz2
+R2
+R0
+w1758006284
+Z12 8Waveform.vwf.vt
+Z13 FWaveform.vwf.vt
+Z14 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+Z15 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vAP1_EX3_afficheur7s
+Z16 !s110 1758547311
+!i10b 1
+!s100 ?27=[1J4Rgo_OZ<5T23_@2
+I4=F:01I1;`S[NnHE7E`jB1
+R2
+R0
+Z17 w1758547310
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z18 !s108 1758547311.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@a@p1_@e@x3_afficheur7s
+vAP1_EX3_afficheur7s_vlg_vec_tst
+R16
+!i10b 1
+!s100 @T7PADJX:L`LWddz8<oLY1
+I5e3DWR>6:`T4eQHcP5I[^0
+R2
+R0
+w1758547309
+R12
+R13
+R14
+R6
+r1
+!s85 0
+31
+R18
+!s107 Waveform.vwf.vt|
+R15
+!i113 1
+R10
+R11
+n@a@p1_@e@x3_afficheur7s_vlg_vec_tst
+vhard_block
+R16
+!i10b 1
+!s100 6ME[74?ZFO3QfEji45g_O3
+IX]W;o1Gm26bNJ55b@Gm^D2
+R2
+R0
+R17
+R3
+R4
+L0 353
+R6
+r1
+!s85 0
+31
+R18
+R8
+R9
+!i113 1
+R10
+R11

@@ -1,0 +1,174 @@
+|Comparaison
+CodeTF <= Comp16bits:inst.aeb
+Code[0] => Comp16bits:inst.dataa[0]
+Code[1] => Comp16bits:inst.dataa[1]
+Code[2] => Comp16bits:inst.dataa[2]
+Code[3] => Comp16bits:inst.dataa[3]
+Code[4] => Comp16bits:inst.dataa[4]
+Code[5] => Comp16bits:inst.dataa[5]
+Code[6] => Comp16bits:inst.dataa[6]
+Code[7] => Comp16bits:inst.dataa[7]
+Code[8] => Comp16bits:inst.dataa[8]
+Code[9] => Comp16bits:inst.dataa[9]
+Code[10] => Comp16bits:inst.dataa[10]
+Code[11] => Comp16bits:inst.dataa[11]
+Code[12] => Comp16bits:inst.dataa[12]
+Code[13] => Comp16bits:inst.dataa[13]
+Code[14] => Comp16bits:inst.dataa[14]
+Code[15] => Comp16bits:inst.dataa[15]
+
+
+|Comparaison|Comp16bits:inst
+dataa[0] => dataa[0].IN1
+dataa[1] => dataa[1].IN1
+dataa[2] => dataa[2].IN1
+dataa[3] => dataa[3].IN1
+dataa[4] => dataa[4].IN1
+dataa[5] => dataa[5].IN1
+dataa[6] => dataa[6].IN1
+dataa[7] => dataa[7].IN1
+dataa[8] => dataa[8].IN1
+dataa[9] => dataa[9].IN1
+dataa[10] => dataa[10].IN1
+dataa[11] => dataa[11].IN1
+dataa[12] => dataa[12].IN1
+dataa[13] => dataa[13].IN1
+dataa[14] => dataa[14].IN1
+dataa[15] => dataa[15].IN1
+datab[0] => datab[0].IN1
+datab[1] => datab[1].IN1
+datab[2] => datab[2].IN1
+datab[3] => datab[3].IN1
+datab[4] => datab[4].IN1
+datab[5] => datab[5].IN1
+datab[6] => datab[6].IN1
+datab[7] => datab[7].IN1
+datab[8] => datab[8].IN1
+datab[9] => datab[9].IN1
+datab[10] => datab[10].IN1
+datab[11] => datab[11].IN1
+datab[12] => datab[12].IN1
+datab[13] => datab[13].IN1
+datab[14] => datab[14].IN1
+datab[15] => datab[15].IN1
+aeb <= lpm_compare:LPM_COMPARE_component.aeb
+
+
+|Comparaison|Comp16bits:inst|lpm_compare:LPM_COMPARE_component
+dataa[0] => cmpr_eng:auto_generated.dataa[0]
+dataa[1] => cmpr_eng:auto_generated.dataa[1]
+dataa[2] => cmpr_eng:auto_generated.dataa[2]
+dataa[3] => cmpr_eng:auto_generated.dataa[3]
+dataa[4] => cmpr_eng:auto_generated.dataa[4]
+dataa[5] => cmpr_eng:auto_generated.dataa[5]
+dataa[6] => cmpr_eng:auto_generated.dataa[6]
+dataa[7] => cmpr_eng:auto_generated.dataa[7]
+dataa[8] => cmpr_eng:auto_generated.dataa[8]
+dataa[9] => cmpr_eng:auto_generated.dataa[9]
+dataa[10] => cmpr_eng:auto_generated.dataa[10]
+dataa[11] => cmpr_eng:auto_generated.dataa[11]
+dataa[12] => cmpr_eng:auto_generated.dataa[12]
+dataa[13] => cmpr_eng:auto_generated.dataa[13]
+dataa[14] => cmpr_eng:auto_generated.dataa[14]
+dataa[15] => cmpr_eng:auto_generated.dataa[15]
+datab[0] => cmpr_eng:auto_generated.datab[0]
+datab[1] => cmpr_eng:auto_generated.datab[1]
+datab[2] => cmpr_eng:auto_generated.datab[2]
+datab[3] => cmpr_eng:auto_generated.datab[3]
+datab[4] => cmpr_eng:auto_generated.datab[4]
+datab[5] => cmpr_eng:auto_generated.datab[5]
+datab[6] => cmpr_eng:auto_generated.datab[6]
+datab[7] => cmpr_eng:auto_generated.datab[7]
+datab[8] => cmpr_eng:auto_generated.datab[8]
+datab[9] => cmpr_eng:auto_generated.datab[9]
+datab[10] => cmpr_eng:auto_generated.datab[10]
+datab[11] => cmpr_eng:auto_generated.datab[11]
+datab[12] => cmpr_eng:auto_generated.datab[12]
+datab[13] => cmpr_eng:auto_generated.datab[13]
+datab[14] => cmpr_eng:auto_generated.datab[14]
+datab[15] => cmpr_eng:auto_generated.datab[15]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= <GND>
+aeb <= cmpr_eng:auto_generated.aeb
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|Comparaison|Comp16bits:inst|lpm_compare:LPM_COMPARE_component|cmpr_eng:auto_generated
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[2].IN0
+dataa[1] => data_wire[2].IN0
+dataa[2] => data_wire[3].IN0
+dataa[3] => data_wire[3].IN0
+dataa[4] => data_wire[4].IN0
+dataa[5] => data_wire[4].IN0
+dataa[6] => data_wire[5].IN0
+dataa[7] => data_wire[5].IN0
+dataa[8] => data_wire[6].IN0
+dataa[9] => data_wire[6].IN0
+dataa[10] => data_wire[7].IN0
+dataa[11] => data_wire[7].IN0
+dataa[12] => data_wire[8].IN0
+dataa[13] => data_wire[8].IN0
+dataa[14] => data_wire[9].IN0
+dataa[15] => data_wire[9].IN0
+datab[0] => data_wire[2].IN1
+datab[1] => data_wire[2].IN1
+datab[2] => data_wire[3].IN1
+datab[3] => data_wire[3].IN1
+datab[4] => data_wire[4].IN1
+datab[5] => data_wire[4].IN1
+datab[6] => data_wire[5].IN1
+datab[7] => data_wire[5].IN1
+datab[8] => data_wire[6].IN1
+datab[9] => data_wire[6].IN1
+datab[10] => data_wire[7].IN1
+datab[11] => data_wire[7].IN1
+datab[12] => data_wire[8].IN1
+datab[13] => data_wire[8].IN1
+datab[14] => data_wire[9].IN1
+datab[15] => data_wire[9].IN1
+
+
+|Comparaison|Const16bits:inst2
+result[0] <= lpm_constant:LPM_CONSTANT_component.result
+result[1] <= lpm_constant:LPM_CONSTANT_component.result
+result[2] <= lpm_constant:LPM_CONSTANT_component.result
+result[3] <= lpm_constant:LPM_CONSTANT_component.result
+result[4] <= lpm_constant:LPM_CONSTANT_component.result
+result[5] <= lpm_constant:LPM_CONSTANT_component.result
+result[6] <= lpm_constant:LPM_CONSTANT_component.result
+result[7] <= lpm_constant:LPM_CONSTANT_component.result
+result[8] <= lpm_constant:LPM_CONSTANT_component.result
+result[9] <= lpm_constant:LPM_CONSTANT_component.result
+result[10] <= lpm_constant:LPM_CONSTANT_component.result
+result[11] <= lpm_constant:LPM_CONSTANT_component.result
+result[12] <= lpm_constant:LPM_CONSTANT_component.result
+result[13] <= lpm_constant:LPM_CONSTANT_component.result
+result[14] <= lpm_constant:LPM_CONSTANT_component.result
+result[15] <= lpm_constant:LPM_CONSTANT_component.result
+
+
+|Comparaison|Const16bits:inst2|lpm_constant:LPM_CONSTANT_component
+result[0] <= <GND>
+result[1] <= <VCC>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <VCC>
+result[7] <= <GND>
+result[8] <= <VCC>
+result[9] <= <GND>
+result[10] <= <VCC>
+result[11] <= <GND>
+result[12] <= <GND>
+result[13] <= <VCC>
+result[14] <= <GND>
+result[15] <= <VCC>
+
+

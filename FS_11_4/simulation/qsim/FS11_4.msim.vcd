@@ -1,0 +1,146 @@
+$comment
+	File created using the following command:
+		vcd file FS11_4.msim.vcd -direction
+$end
+$date
+	Wed Mar 26 18:06:16 2025
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module MemorisationEtatCode_vlg_vec_tst $end
+$var reg 1 ! CodeTF $end
+$var reg 1 " nLatchCode $end
+$var wire 1 # CodeTF_mem $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * CodeTF_mem~output_o $end
+$var wire 1 + nLatchCode~input_o $end
+$var wire 1 , CodeTF~input_o $end
+$var wire 1 - inst~q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+0+
+0,
+0-
+$end
+#500000
+1"
+1+
+#5000000
+1!
+1,
+#10000000
+0"
+0!
+0+
+0,
+1-
+1*
+1#
+#10500000
+1"
+1+
+#15000000
+1!
+1,
+#20000000
+0"
+0+
+#20500000
+1"
+1+
+#30000000
+0"
+0+
+#30500000
+1"
+1+
+#35000000
+0!
+0,
+#40000000
+0"
+0+
+0-
+0*
+0#
+#40500000
+1"
+1+
+#45000000
+1!
+1,
+#50000000
+0"
+0!
+0+
+0,
+1-
+1*
+1#
+#50500000
+1"
+1+
+#55000000
+1!
+1,
+#60000000
+0"
+0+
+#60500000
+1"
+1+
+#70000000
+0"
+0+
+#70500000
+1"
+1+
+#75000000
+0!
+0,
+#80000000
+0"
+0+
+0-
+0*
+0#
+#80500000
+1"
+1+
+#90000000
+1!
+0"
+0+
+1,
+#90500000
+1"
+1+
+#95000000
+0!
+0,
+#100000000
