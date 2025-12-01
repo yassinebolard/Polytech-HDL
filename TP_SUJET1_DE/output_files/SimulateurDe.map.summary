@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Nov 28 23:05:01 2025
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : SimulateurDe
+Top-level Entity Name : SimulateurDe
+Family : Cyclone IV E
+Total logic elements : 75
+    Total combinational functions : 71
+    Dedicated logic registers : 49
+Total registers : 49
+Total pins : 46
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

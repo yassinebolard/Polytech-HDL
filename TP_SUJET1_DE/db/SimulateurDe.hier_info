@@ -1,0 +1,268 @@
+|SimulateurDe
+Clk => Clk.IN3
+R_Btn => R_Btn.IN1
+L_Btn => L_Btn.IN1
+C_Btn => ~NO_FANOUT~
+d_unit[6] <= afficheur7s:affichage_d_unit.Out
+d_unit[5] <= afficheur7s:affichage_d_unit.Out
+d_unit[4] <= afficheur7s:affichage_d_unit.Out
+d_unit[3] <= afficheur7s:affichage_d_unit.Out
+d_unit[2] <= afficheur7s:affichage_d_unit.Out
+d_unit[1] <= afficheur7s:affichage_d_unit.Out
+d_unit[0] <= afficheur7s:affichage_d_unit.Out
+d_diz[6] <= afficheur7s:affichage_d_diz.Out
+d_diz[5] <= afficheur7s:affichage_d_diz.Out
+d_diz[4] <= afficheur7s:affichage_d_diz.Out
+d_diz[3] <= afficheur7s:affichage_d_diz.Out
+d_diz[2] <= afficheur7s:affichage_d_diz.Out
+d_diz[1] <= afficheur7s:affichage_d_diz.Out
+d_diz[0] <= afficheur7s:affichage_d_diz.Out
+d_cent[6] <= afficheur7s:affichage_d_cent.Out
+d_cent[5] <= afficheur7s:affichage_d_cent.Out
+d_cent[4] <= afficheur7s:affichage_d_cent.Out
+d_cent[3] <= afficheur7s:affichage_d_cent.Out
+d_cent[2] <= afficheur7s:affichage_d_cent.Out
+d_cent[1] <= afficheur7s:affichage_d_cent.Out
+d_cent[0] <= afficheur7s:affichage_d_cent.Out
+d_d[6] <= afficheur7s:affichage_d_d.Out
+d_d[5] <= afficheur7s:affichage_d_d.Out
+d_d[4] <= afficheur7s:affichage_d_d.Out
+d_d[3] <= afficheur7s:affichage_d_d.Out
+d_d[2] <= afficheur7s:affichage_d_d.Out
+d_d[1] <= afficheur7s:affichage_d_d.Out
+d_d[0] <= afficheur7s:affichage_d_d.Out
+Aff_Unit[6] <= <GND>
+Aff_Unit[5] <= <GND>
+Aff_Unit[4] <= <GND>
+Aff_Unit[3] <= <GND>
+Aff_Unit[2] <= <GND>
+Aff_Unit[1] <= <GND>
+Aff_Unit[0] <= <GND>
+Aff_Diz[6] <= <GND>
+Aff_Diz[5] <= <GND>
+Aff_Diz[4] <= <GND>
+Aff_Diz[3] <= <GND>
+Aff_Diz[2] <= <GND>
+Aff_Diz[1] <= <GND>
+Aff_Diz[0] <= <GND>
+
+
+|SimulateurDe|button_shaper:db_inc
+clk => sync_1.CLK
+clk => sync_0.CLK
+clk => pulse_out~reg0.CLK
+clk => stable_state.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+reset_n => sync_1.PRESET
+reset_n => sync_0.PRESET
+reset_n => pulse_out~reg0.ACLR
+reset_n => stable_state.PRESET
+reset_n => counter[0].ACLR
+reset_n => counter[1].ACLR
+reset_n => counter[2].ACLR
+reset_n => counter[3].ACLR
+reset_n => counter[4].ACLR
+reset_n => counter[5].ACLR
+reset_n => counter[6].ACLR
+reset_n => counter[7].ACLR
+reset_n => counter[8].ACLR
+reset_n => counter[9].ACLR
+reset_n => counter[10].ACLR
+reset_n => counter[11].ACLR
+reset_n => counter[12].ACLR
+reset_n => counter[13].ACLR
+reset_n => counter[14].ACLR
+reset_n => counter[15].ACLR
+reset_n => counter[16].ACLR
+reset_n => counter[17].ACLR
+reset_n => counter[18].ACLR
+button_in => sync_0.DATAIN
+pulse_out <= pulse_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SimulateurDe|button_shaper:db_dec
+clk => sync_1.CLK
+clk => sync_0.CLK
+clk => pulse_out~reg0.CLK
+clk => stable_state.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+reset_n => sync_1.PRESET
+reset_n => sync_0.PRESET
+reset_n => pulse_out~reg0.ACLR
+reset_n => stable_state.PRESET
+reset_n => counter[0].ACLR
+reset_n => counter[1].ACLR
+reset_n => counter[2].ACLR
+reset_n => counter[3].ACLR
+reset_n => counter[4].ACLR
+reset_n => counter[5].ACLR
+reset_n => counter[6].ACLR
+reset_n => counter[7].ACLR
+reset_n => counter[8].ACLR
+reset_n => counter[9].ACLR
+reset_n => counter[10].ACLR
+reset_n => counter[11].ACLR
+reset_n => counter[12].ACLR
+reset_n => counter[13].ACLR
+reset_n => counter[14].ACLR
+reset_n => counter[15].ACLR
+reset_n => counter[16].ACLR
+reset_n => counter[17].ACLR
+reset_n => counter[18].ACLR
+button_in => sync_0.DATAIN
+pulse_out <= pulse_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SimulateurDe|select_dice:selecteur
+Clk => current_dice[0].CLK
+Clk => current_dice[1].CLK
+Clk => current_dice[2].CLK
+Reset_n => current_dice[0].ACLR
+Reset_n => current_dice[1].ACLR
+Reset_n => current_dice[2].ACLR
+inc => current_dice.OUTPUTSELECT
+inc => current_dice.OUTPUTSELECT
+inc => current_dice.OUTPUTSELECT
+dec => current_dice.OUTPUTSELECT
+dec => current_dice.OUTPUTSELECT
+dec => current_dice.OUTPUTSELECT
+dice[2] <= current_dice[0].DB_MAX_OUTPUT_PORT_TYPE
+dice[1] <= current_dice[1].DB_MAX_OUTPUT_PORT_TYPE
+dice[0] <= current_dice[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SimulateurDe|separateur_de:valeur_de
+dice[0] => Equal0.IN2
+dice[0] => Equal1.IN2
+dice[0] => Equal2.IN1
+dice[0] => Equal3.IN2
+dice[0] => Equal4.IN1
+dice[0] => Equal5.IN2
+dice[0] => Equal6.IN0
+dice[0] => Equal7.IN2
+dice[1] => Equal0.IN1
+dice[1] => Equal1.IN1
+dice[1] => Equal2.IN2
+dice[1] => Equal3.IN1
+dice[1] => Equal4.IN0
+dice[1] => Equal5.IN0
+dice[1] => Equal6.IN2
+dice[1] => Equal7.IN1
+dice[2] => Equal0.IN0
+dice[2] => Equal1.IN0
+dice[2] => Equal2.IN0
+dice[2] => Equal3.IN0
+dice[2] => Equal4.IN2
+dice[2] => Equal5.IN1
+dice[2] => Equal6.IN1
+dice[2] => Equal7.IN0
+unit[3] <= <GND>
+unit[2] <= var_unit[2].DB_MAX_OUTPUT_PORT_TYPE
+unit[1] <= var_unit[1].DB_MAX_OUTPUT_PORT_TYPE
+unit[0] <= var_unit[0].DB_MAX_OUTPUT_PORT_TYPE
+diz[3] <= var_diz[3].DB_MAX_OUTPUT_PORT_TYPE
+diz[2] <= var_diz[2].DB_MAX_OUTPUT_PORT_TYPE
+diz[1] <= var_diz[1].DB_MAX_OUTPUT_PORT_TYPE
+diz[0] <= var_diz[0].DB_MAX_OUTPUT_PORT_TYPE
+cent[3] <= var_cent.DB_MAX_OUTPUT_PORT_TYPE
+cent[2] <= var_cent.DB_MAX_OUTPUT_PORT_TYPE
+cent[1] <= var_cent.DB_MAX_OUTPUT_PORT_TYPE
+cent[0] <= var_cent.DB_MAX_OUTPUT_PORT_TYPE
+d[3] <= <VCC>
+d[2] <= <VCC>
+d[1] <= <VCC>
+d[0] <= <VCC>
+
+
+|SimulateurDe|afficheur7s:affichage_d_unit
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SimulateurDe|afficheur7s:affichage_d_diz
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SimulateurDe|afficheur7s:affichage_d_cent
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SimulateurDe|afficheur7s:affichage_d_d
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

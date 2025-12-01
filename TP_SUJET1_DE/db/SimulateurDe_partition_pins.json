@@ -1,0 +1,105 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "d_unit[6]",
+					"strict" : false
+				},
+				{
+					"name" : "d_unit[5]",
+					"strict" : false
+				},
+				{
+					"name" : "d_unit[4]",
+					"strict" : false
+				},
+				{
+					"name" : "d_unit[3]",
+					"strict" : false
+				},
+				{
+					"name" : "d_unit[2]",
+					"strict" : false
+				},
+				{
+					"name" : "d_unit[1]",
+					"strict" : false
+				},
+				{
+					"name" : "d_unit[0]",
+					"strict" : false
+				},
+				{
+					"name" : "d_diz[6]",
+					"strict" : false
+				},
+				{
+					"name" : "d_diz[5]",
+					"strict" : false
+				},
+				{
+					"name" : "d_diz[4]",
+					"strict" : false
+				},
+				{
+					"name" : "d_diz[3]",
+					"strict" : false
+				},
+				{
+					"name" : "d_diz[2]",
+					"strict" : false
+				},
+				{
+					"name" : "d_diz[1]",
+					"strict" : false
+				},
+				{
+					"name" : "d_diz[0]",
+					"strict" : false
+				},
+				{
+					"name" : "d_cent[6]",
+					"strict" : false
+				},
+				{
+					"name" : "d_cent[5]",
+					"strict" : false
+				},
+				{
+					"name" : "d_cent[4]",
+					"strict" : false
+				},
+				{
+					"name" : "d_cent[3]",
+					"strict" : false
+				},
+				{
+					"name" : "d_cent[2]",
+					"strict" : false
+				},
+				{
+					"name" : "d_cent[1]",
+					"strict" : false
+				},
+				{
+					"name" : "d_cent[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Clk",
+					"strict" : false
+				},
+				{
+					"name" : "R_Btn",
+					"strict" : false
+				},
+				{
+					"name" : "L_Btn",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
